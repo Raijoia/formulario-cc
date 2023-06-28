@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonte Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Formulário</title>
+</head>
+<body>
+  <!-- Formulário de contato pego pelo formsubmit.co-->
+  <form action="https://formsubmit.co/raijoiamv@gmail.com" method="POST">
+    <h1>Formulário de contato</h1>
+     <input type="text" name="name" placeholder="Nome" required>
+     <input type="email" name="email" placeholder="E-mail" required> 
+     <textarea name="message" placeholder="Digite sua mensagem..." required></textarea>  
+     <button type="submit">Enviar</button>
+
+    <!-- Mudar pra tela de Obrigado -->
+     <input type="hidden" name="_next" value="https://tela-obrigado-formulario-rai.netlify.app">
+    </form>
+</body>
+</html>

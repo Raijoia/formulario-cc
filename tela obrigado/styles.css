@@ -1,0 +1,87 @@
+/* Resetando toda a configuração padrão dos navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  /* Fonte Roboto */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Fundo do site */
+body {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+
+/* Formulário  e Tela de obrigado */
+form, div {
+  width: 40%;
+  min-width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+
+  /* Centralizar o formulário */
+  margin: 100px auto;
+
+  padding: 20px;
+}
+
+/* Dados */
+input, textarea {
+  min-width: 320px;
+  display: block;
+
+  /* Centralizar */
+  margin: 0 auto;
+
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  margin-top: 20px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+/* Texto */
+textarea {
+  height: 200px;
+  padding-top: 10px;
+}
+
+/* Botão */
+button {
+  /* Centralizando o botão */
+  display: block;
+  margin: 20px auto;
+
+  height: 40px;
+  min-width: 320px;
+  border: none;
+  border-radius: 5px;
+  background: #7f00ff;
+  color: white;
+
+  /* Mudar cursor ao passar o mouse */
+  cursor: pointer;
+}
+
+/* Hover */
+button:hover {
+  /* Mudar opacidade ao passar o mouse no botão */
+  opacity: 0.8;
+}
+
+/* Active */
+button:active {
+  /* Mudar opacidade do botão ao clicar */
+  opacity: 0.6;
+}
+
+/* Title e texto da tela de obrigado */
+h1, p {
+  /* Centralizando o título */
+  text-align: center;
+
+  margin: 10px;
+}
+
